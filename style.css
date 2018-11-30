@@ -1,0 +1,134 @@
+/* body {
+  background: rgb(53, 49, 130);
+  background: linear-gradient(130deg,
+    rgba(53, 49, 130, 1) 7%,
+    rgba(67, 128, 154, 1) 27%,
+    rgba(0, 255, 134, 1) 100%);
+} */
+@-o-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-mozilla-viewport {
+  width: device-width;
+}
+
+#aboutMeTarget {
+  padding-top: 3%;
+  background-image: url(http://itsjustmichele.com/FCC/colorfulHardbackBooksOnShelf.png);
+  background-size: 100% 100%;
+  margin: 0px;
+  width: 100%;
+}
+
+.aboutMe {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  min-height: 600px;
+}
+
+#profilePic {
+  max-width: 100%;
+  height: auto;
+  padding: 2%;
+}
+
+/* Headings: Android, Web */
+h3 {
+  font-size: 2vw;
+}
+
+/* Web Dev */
+#portfolioTarget {
+  background-image: url(http://itsjustmichele.com/FCC/officeWithComputer2.jpg);
+  background-size: 100% 100%;
+  margin: 0px;
+  width: 100%;
+}
+
+.webDev {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  min-height: 800px;
+  width: auto;
+}
+
+/* Android Dev */
+#portfolioTarget2 {
+  background-image: url(http://itsjustmichele.com/FCC/edhoPratama149011Unsplash.jpg);
+  background-size: 100% 100%;
+  margin: 0px;
+  width: 100%;
+}
+
+.androidDev {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  min-height: 800px;
+  width: auto;
+}
+
+#contactTarget {
+  background-image: url(http://itsjustmichele.com/FCC/dariaNepriakhina6030Unsplash.jpg);
+  padding-top: 5%;
+  background-size: 100% 100%;
+  margin: 0px;
+  width: 100%;
+}
+
+#contactIconTarget {
+  padding-top: 5%;
+}
+
+
+/* START NAV BAR HERE */
+.navbar-custom {
+  border-bottom: solid black 1px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgb(0, 0, 0, 0.5);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #000000;
+}
+/* MY NAME; takes you to the top of the page */
+.navbar-brand {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 22px;
+}
+
+/* .col-sm {
+  border: solid pink;
+}
+.col-sm-2 {
+  border: solid orange;
+} */
+/* .col-3 {
+  border: solid green;
+}
+.col-4 {
+  border: solid blue;
+} */
+/* .col-sm-5 {
+  border: solid yellow;
+} */
